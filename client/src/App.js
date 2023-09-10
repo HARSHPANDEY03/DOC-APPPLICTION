@@ -11,9 +11,10 @@ function App() {
       <h1 className="text-success">hello world</h1>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+          {/* <Route path="/" element={<HomePage />} /> */}
+          {/* <Route path="/login" element={<Login />} /> */}
+          {/* <Route path="/register" element={<Register />} /> */}
+          <Route path="/" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>
